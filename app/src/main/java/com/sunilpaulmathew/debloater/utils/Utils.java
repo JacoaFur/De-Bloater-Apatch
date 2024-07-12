@@ -73,7 +73,7 @@ public class Utils {
     }
 
     public static boolean magiskSupported() {
-        return Utils.exist("/sbin/.magisk") || Utils.exist("/data/adb/magisk") || Utils.exist("/data/adb/ksu/bin/busybox");
+        return Utils.exist("/sbin/.magisk") || Utils.exist("/data/adb/magisk") || Utils.exist("/data/adb/ksu/bin/busybox") || Utils.exist("/data/adb/ap/bin/busybox");
     }
 
     public static int getThemeAccentColor(Context context) {
